@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "kak_one": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1766956174,
+        "narHash": "sha256-MupRAYdaPfpVF+t/2wZEIKzLZ0UUjaF3qCLbAvKv4gA=",
+        "ref": "refs/heads/trunk",
+        "rev": "e89f34d0daa125194fb166eb7fcd779937662272",
+        "revCount": 82,
+        "type": "git",
+        "url": "https://codeberg.org/raiguard/kak-one"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/raiguard/kak-one"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791956154,
+        "narHash": "sha256-jBYGPi4udQ9uo4KQp9m2J0546nJVQitG15gvZSaVVAs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kak_one": "kak_one",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
