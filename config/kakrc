@@ -16,3 +16,5 @@ evaluate-commands %sh{
         echo 'source "%val{config}/rc/jj.kak"'
     fi
 }
+
+source "%val{config}/rc/oil.kak"
